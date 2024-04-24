@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> people page </title>
+        <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .banner {
+                width: 100%;
+                height: 100vh;
+                background-image:linear-gradient(rgb(214, 39, 0),rgba(147, 166, 227, 0.75));
+                background-size: cover;
+                background-position: center;
+            }
+            .navbar {
+                width: 85%;
+                margin: auto;
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .bg-people {
+                border: 1px;
+                padding: 10px;
+                color: rgb(0, 0, 0);
+               
+                border-radius: 30px;
+            }
+            .logo {
+                color:#1111c2;
+                font-size: 40px;
+                font-weight: 700;
+                letter-spacing: 3px;
+            }
+            span {
+                color: rgb(0, 0, 0);
+            }
+            form {
+                width: 300px;
+                height: 40px;
+                display: flex;
+                background: rgba(0, 0, 0, 0.2);
+                padding: 1px 1px;
+                font-size: 15px;
+                border-radius: 10px;
+                backdrop-filter: blur(4px) saturate(180%);
+            }
+            form input {
+                background: transparent;
+                flex: 1;
+                border: 0;
+                outline: none;
+                padding: 12px 20px;
+                font-size: 15px;
+                color: rgb(4, 3, 3);
+            } 
+            ::placeholder {
+                color: rgb(11, 8, 8);
+            }
+            form button {
+                border: 0;
+                outline: none;
+                padding: 5px 20px;
+                color: rgb(255, 255, 255);
+                border-radius: 10px;
+                background:#984a4a;
+                cursor: pointer;
+            }
+            .navbar li {
+                list-style: none;
+                display: inline-block;
+                margin: 0 20px;
+                position: relative;
+            }
+            .navbar li a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                text-transform: uppercase;
+            }
+            .navbar li:hover {
+                border: 1px;
+                padding: 10px;
+                color: rgb(0, 0, 0);
+                background-color:#010101;
+                transition: 0.5s; 
+                cursor: pointer;
+                border-radius: 30px;
+            }
+            .image {
+                position: relative;
+                border: 0;
+                top: 70px;
+                background: transparent;
+            }
+            .image table {
+                border: 0;
+                color: rgb(8, 6, 6);
+                position: relative;
+                left: 150px;
+            }
+            .image table img {
+                height: 140px;
+                width: 140px;
+                border: 2px solid rgb(5, 5, 5);
+                padding: 5px;
+                border-radius: 50%;
+            }
+            .image table td {
+                color:#010101;
+            }
+            footer {
+                background-color:#010101;
+                margin-top: auto;
+            }
+        </style>
+    </head>
+<body>
+    <div class="banner">
+        <br>
+        <div class="navbar">
+            <h1 class="logo">CodeHub</h1>
+            <ul>
+                <li><a href="http://127.0.0.1:8000/static/start.html"> Home </a></li>
+                <li><a href="http://127.0.0.1:8000/static/product.html"> Products </a></li>
+                <li><a href="http://127.0.0.1:8000/static/people.html" class="bg-people"> People </a></li>
+                <li><a href="http://127.0.0.1:8000/static/contact.html"> Contact </a></li>
+            </ul>
+            <form action="" method="get">
+                <input type="text" placeholder="Enter to Search">
+                <button type="submit"> Search </button>
+            </form>
+        </div>
+        <div class="image">
+            <table cellspacing="200"> 
+                <tr align="center">
+                    <td> <img src="steve.png"> </td>
+                    <td> <img src="cook.png"> </td>
+                    <td> <img src="craig.png"> </td>
+                    <td> <img src="tim.png"> </td>
+                    <td> <img src="shaik.png"> </td>
+                </tr>
+                <tr align="center">
+                    <th>Steves Jobs</th>
+                    <th> Timothy Donald Cook </th>
+                    <th> Craig Federighi </th>
+                    <th> Tim Cook </th>
+                    <th> Sabhi khan </th>
+                </tr>
+                <tr align="center">
+                    <td> CEO </td>
+                    <td> CEO, Co-Founder </td>
+                    <td> CTO, Co-Founder </td>
+                    <td> Director </td>
+                    <td> Asst. Director </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <center> Designed and Developed by ZAFREEN J (23012754) </center>
+    </footer>
+</body>
+</html>
