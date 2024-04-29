@@ -547,7 +547,7 @@ people.html
         </div>
     </div>
     <footer>
-        <center> Designed and Developed by ZAFREEN J (23012754) </center>
+        <center> Designed and Developed by yendluri chandana (212223100063) </center>
     </footer>
 </body>
 </html>
@@ -717,7 +717,7 @@ people.html
         </div>
     </div>
     <footer>
-        <center> Designed and Developed by ZAFREEN J (23012754) </center>
+        <center> Designed and Developed by yendluri chandana(212223100063) </center>
     </footer>
 </body>
 </html>
@@ -944,7 +944,7 @@ contact.html
         </div>
     </div>
     <footer>
-        <center> Designed and Developed by ZAFREEN J(23012754) </center>
+        <center> Designed and Developed by Yendluri Chandana(212223100063) </center>
     </footer>
 </body>
 </html>
