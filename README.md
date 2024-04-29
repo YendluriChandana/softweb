@@ -547,7 +547,11 @@ people.html
         </div>
     </div>
     <footer>
+<<<<<<< HEAD
         <center> Designed and Developed by Yendluri Chandana(212223100063) </center>
+=======
+        <center> Designed and Developed by yendluri chandana (212223100063) </center>
+>>>>>>> e85b27e06e173551599ad3904809b304b24d96ab
     </footer>
 </body>
 </html>
@@ -717,7 +721,11 @@ people.html
         </div>
     </div>
     <footer>
+<<<<<<< HEAD
         <center> Designed and Developed by Yendluri Chandana(212223100063) </center>
+=======
+        <center> Designed and Developed by yendluri chandana(212223100063) </center>
+>>>>>>> e85b27e06e173551599ad3904809b304b24d96ab
     </footer>
 </body>
 </html>
